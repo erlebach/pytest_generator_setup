@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "new"
+version = "0.1.0"
+description = ""
+authors = ["erlebach <gordon.erlebach@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest_generator = { git = "https://github.com/erlebach/pytest_generator.git", branch = "main" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
